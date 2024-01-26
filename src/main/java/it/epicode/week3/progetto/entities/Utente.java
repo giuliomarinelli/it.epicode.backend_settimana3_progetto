@@ -4,7 +4,7 @@ import jakarta.persistence.*;
 
 import java.time.LocalDate;
 import java.util.List;
-import java.util.Objects;
+
 
 @Entity
 @Table(name = "utenti")
@@ -79,19 +79,7 @@ public class Utente {
                 ", nome='" + nome + '\'' +
                 ", cognome='" + cognome + '\'' +
                 ", dataDiNascita=" + dataDiNascita;
-
     }
 
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-        Utente utente = (Utente) o;
-        return Objects.equals(numeroDiTessera, utente.numeroDiTessera);
-    }
 
-    @Override
-    public int hashCode() {
-        return Objects.hash(numeroDiTessera);
-    }
 }

@@ -4,7 +4,7 @@ import it.epicode.week3.progetto.Dao.UtenteDao;
 import it.epicode.week3.progetto.entities.*;
 import jakarta.persistence.*;
 
-import java.sql.SQLException;
+
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
@@ -23,7 +23,6 @@ public class Archivio {
 
     public static void aggiungi(FonteLeggibile fl) {
         try {
-
             EntityTransaction et = em.getTransaction();
             et.begin();
             em.persist(fl);
@@ -95,7 +94,6 @@ public class Archivio {
 
     public static List<FonteLeggibile> ricercaPerAnnoDiPubblicazione(int anno) {
         try {
-
             Query q = em.createQuery("SELECT f FROM FonteLeggibile f WHERE f.annoDiPubblicazione = :anno");
             q.setParameter("anno", anno);
             return q.getResultList();
@@ -107,7 +105,6 @@ public class Archivio {
 
     public static List<Libro> ricercaperAutore(String autore) {
         try {
-
             Query q = em.createQuery("SELECT l FROM Libro l WHERE l.autore = :autore");
             q.setParameter("autore", autore);
             return q.getResultList();
@@ -119,7 +116,6 @@ public class Archivio {
 
     public static List<FonteLeggibile> ricercaPerTitolo(String titolo) {
         try {
-
             String titoloDaCercare = ("%" + titolo + "%").toLowerCase(); // Ricerca case-insensitive
             Query q = em.createQuery("SELECT f FROM FonteLeggibile f WHERE LOWER(f.titolo) LIKE :titolo");
             q.setParameter("titolo", titoloDaCercare);

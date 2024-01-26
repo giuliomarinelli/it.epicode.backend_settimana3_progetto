@@ -89,13 +89,11 @@ public class Prestito {
 
     @Override
     public String toString() {
-        return "Prestito{" +
-                "id=" + id +
+        return  "id=" + id +
                 ", utente=" + utente +
                 ", elementoPrestato=" + elementoPrestato +
                 ", dataInizioPrestito=" + dataInizioPrestito +
                 ", dataRestituzionePrevista=" + dataRestituzionePrevista +
-                ", dataRestituzioneEffettiva=" + dataRestituzioneEffettiva +
-                '}';
+                ", dataRestituzioneEffettiva=" + dataRestituzioneEffettiva;
     }
 }

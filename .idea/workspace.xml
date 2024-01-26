@@ -4,25 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f099a3d4-a4f1-4cb1-b778-18713e959b09" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/it/epicode/week3/progetto/Archivio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/it/epicode/week3/progetto/Dao/PrestitoDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/it/epicode/week3/progetto/Dao/UtenteDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/it/epicode/week3/progetto/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/it/epicode/week3/progetto/entities/FonteLeggibile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/it/epicode/week3/progetto/entities/Libro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/it/epicode/week3/progetto/entities/Periodicita.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/it/epicode/week3/progetto/entities/Prestito.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/it/epicode/week3/progetto/entities/Rivista.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/it/epicode/week3/progetto/entities/Utente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+    <list default="true" id="f099a3d4-a4f1-4cb1-b778-18713e959b09" name="Changes" comment="All completed">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/it/epicode/week3/progetto/Archivio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/epicode/week3/progetto/Archivio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/it/epicode/week3/progetto/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/epicode/week3/progetto/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/it/epicode/week3/progetto/entities/Prestito.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/epicode/week3/progetto/entities/Prestito.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/it/epicode/week3/progetto/entities/Rivista.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/epicode/week3/progetto/entities/Rivista.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/it/epicode/week3/progetto/entities/Utente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/epicode/week3/progetto/entities/Utente.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +74,20 @@
       <option name="presentableId" value="Default" />
       <updated>1706256937441</updated>
     </task>
+    <task id="LOCAL-00001" summary="All completed">
+      <option name="closed" value="true" />
+      <created>1706284882653</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1706284882653</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="All completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="All completed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

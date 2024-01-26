@@ -38,7 +38,7 @@ public class Main {
 
         Archivio.ricercaPerAnnoDiPubblicazione(2024).stream().forEach(System.out::println);
 
-            Archivio.ricercaperAutore("Umberto Eco").stream().forEach(System.out::println);
+        Archivio.ricercaperAutore("Umberto Eco").stream().forEach(System.out::println);
 
         UtenteDao.open();
         PrestitoDao.open();

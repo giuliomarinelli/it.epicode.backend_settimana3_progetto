@@ -32,10 +32,6 @@ public class Rivista extends FonteLeggibile {
     @Override
     public String toString() {
         return  super.toString() +
-                "ISBN='" + getISBN() + '\'' +
-                ", titolo='" + getTitolo() + '\'' +
-                ", annoDiPubblicazione=" + getAnnoDiPubblicazione() +
-                ", numeroPagine=" + getNumeroPagine() +
                 ", periodicita=" + periodicita;
     }
 }
