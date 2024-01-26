@@ -36,7 +36,7 @@ public class Main {
         r.setAnnoDiPubblicazione(2024);
         r.setNumeroPagine(40);
         Archivio.aggiungi(r);
-        Archivio.aggiungi(l);
+
 
         Archivio.ricercaPerAnnoDiPubblicazione(2024).stream().forEach(System.out::println);
 
