@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f099a3d4-a4f1-4cb1-b778-18713e959b09" name="Changes" comment="Reviewed">
+    <list default="true" id="f099a3d4-a4f1-4cb1-b778-18713e959b09" name="Changes" comment="fix">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/epicode/week3/progetto/entities/Libro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/epicode/week3/progetto/entities/Libro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/epicode/week3/progetto/entities/Rivista.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/epicode/week3/progetto/entities/Rivista.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/it/epicode/week3/progetto/Archivio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/epicode/week3/progetto/Archivio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/it/epicode/week3/progetto/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/epicode/week3/progetto/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,13 +87,22 @@
       <option name="project" value="LOCAL" />
       <updated>1706289189128</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="fix">
+      <option name="closed" value="true" />
+      <created>1706290695057</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1706290695057</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="All completed" />
     <MESSAGE value="Reviewed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Reviewed" />
+    <MESSAGE value="fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

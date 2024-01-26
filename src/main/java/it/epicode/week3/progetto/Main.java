@@ -14,6 +14,8 @@ import java.util.List;
 public class Main {
     public static void main(String[] args) {
 
+        Archivio.open();
+
         Libro l = new Libro();
         l.setAutore("Umberto Eco");
         l.setTitolo("Il cimitero di Praga");

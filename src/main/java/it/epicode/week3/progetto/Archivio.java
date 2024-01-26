@@ -12,8 +12,13 @@ import java.util.UUID;
 import java.util.stream.Collectors;
 
 public class Archivio {
-    private static EntityManagerFactory emf = Persistence.createEntityManagerFactory("archivio_bibliografico_jpa");
-    private static EntityManager em = emf.createEntityManager();
+    private static EntityManagerFactory emf;
+    private static EntityManager em;
+
+    public static void open() {
+        emf = Persistence.createEntityManagerFactory("archivio_bibliografico_jpa");
+        em = emf.createEntityManager();
+    }
 
 
     public static void close() {
