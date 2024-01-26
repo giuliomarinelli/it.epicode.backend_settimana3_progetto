@@ -53,12 +53,14 @@ public class Archivio {
 
         FonteLeggibile elementoCercato = null;
 
-        try {
+
             elementoCercato = em.find(FonteLeggibile.class, ISBN);
-        } catch (NullPointerException e) {
+
+
+        if (elementoCercato == null) {
             System.out.println("Si sta cercando di eliminare un elemento non presente in archivio");
+            return;
         }
-        if (elementoCercato == null) return;
         try {
 
             EntityTransaction et = em.getTransaction();
