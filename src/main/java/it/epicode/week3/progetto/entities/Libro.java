@@ -9,7 +9,6 @@ import java.util.UUID;
 
 @Entity
 @Table(name = "libri")
-@Inheritance(strategy = InheritanceType.TABLE_PER_CLASS)
 public class Libro extends FonteLeggibile {
     private String autore;
     private String genere;

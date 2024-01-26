@@ -1,11 +1,9 @@
 package it.epicode.week3.progetto.entities;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.EnumType;
-import jakarta.persistence.Enumerated;
-import jakarta.persistence.Table;
+import jakarta.persistence.*;
 
 import java.util.UUID;
+
 
 @Entity
 @Table(name = "riviste")
