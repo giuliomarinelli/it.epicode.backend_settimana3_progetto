@@ -81,7 +81,7 @@ public class Archivio {
     }
 
     public static FonteLeggibile ricercaPerISBN(UUID ISBN) throws NullPointerException {
-        FonteLeggibile elementoTrovato;
+
         try {
 
             return em.find(FonteLeggibile.class, ISBN);
