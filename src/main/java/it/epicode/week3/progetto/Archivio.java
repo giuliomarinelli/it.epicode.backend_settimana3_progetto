@@ -51,10 +51,7 @@ public class Archivio {
 
     public static void rimuoviPerISBN(UUID ISBN) {
 
-        FonteLeggibile elementoCercato = null;
-
-
-            elementoCercato = em.find(FonteLeggibile.class, ISBN);
+        FonteLeggibile elementoCercato =  em.find(FonteLeggibile.class, ISBN);
 
 
         if (elementoCercato == null) {
